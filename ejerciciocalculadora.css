@@ -1,0 +1,34 @@
+body {
+  font-family: verdana;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.display {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background: rgb(182, 164, 164);
+  height: 3rem;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.boton {
+  font-size: 1.5rem;
+}
+
+.num {
+  background: white;
+}
+
+.igual {
+  background: blue;
+}
+
+.calculadora {
+  width: 40rem;
+}

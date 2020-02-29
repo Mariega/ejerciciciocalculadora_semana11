@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="ejerciciocalculadora.css" />
+    <title>calculadora</title>
+  </head>
+  <body>
+    <div class="calculadora">
+      <div id="display" class="display"></div>
+      <div class="buttons">
+        <button onclick="cambioOperacion(this.id)" id="potencia" class="boton" type="button">
+            &#94
+        </button>
+        <button onclick="cambioOperacion(this.id)" id="raiz" class="boton" type="button">
+            &#8730
+        </button>
+        <button onclick="cambioOperacion(this.id)" id="division" class="boton" type="button">
+            &#247
+        </button>
+        <button onclick="borrar()" id="borrar" class="boton" type="button">
+            &#8592
+        </button>
+        <button
+          onclick="ingresaDigit(this.id)"
+          id="7"
+          class="boton num"
+          type="button"
+        >
+          7
+        </button>
+        <button
+          onclick="ingresaDigit(this.id)"
+          id="8"
+          class="boton num"
+          type="button"
+        >
+          8
+        </button>
+        <button
+          onclick="ingresaDigit(this.id)"
+          id="9"
+          class="boton num"
+          type="button"
+        >
+          9
+        </button>
+        <button
+          onclick="cambioOperacion(this.id)"
+          id="multiplicacion"
+          class="boton"
+          type="button"
+        >
+          x
+        </button>
+        <button
+          id="4"
+          onclick="ingresaDigit(this.id)"
+          class="boton num"
+          type="button"
+        >
+          4
+        </button>
+        <button
+          onclick="ingresaDigit(this.id)"
+          id="5"
+          class="boton num"
+          type="button"
+        >
+          5
+        </button>
+        <button
+          onclick="ingresaDigit(this.id)"
+          id="6"
+          class="boton num"
+          type="button"
+        >
+          6
+        </button>
+        <button onclick="cambioOperacion(this.id)" id="resta" class="boton" type="button">
+          -
+        </button>
+        <button
+          onclick="ingresaDigit(this.id)"
+          id="1"
+          class="boton num"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          onclick="ingresaDigit(this.id)"
+          id="2"
+          class="boton num"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          onclick="ingresaDigit(this.id)"
+          id="3"
+          class="boton num"
+          type="button"
+        >
+          3
+        </button>
+        <button onclick="cambioOperacion(this.id)" id="suma" class="boton" type="button">
+          +
+        </button>
+        <button
+          onclick="cambioSigno()"
+          id="cambioSigno"
+          class="boton"
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          onclick="ingresaDigit(this.id)"
+          id="0"
+          class="boton num"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          onclick="ingresaDigit(this.id)"
+          id="."
+          class="boton"
+          type="button"
+        >
+          .
+        </button>
+        <button onclick="igual()" id="igual" class="boton igual" type="button">
+          =
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="ejerciciocalculadora.js"></script>
+</html>
+
+
